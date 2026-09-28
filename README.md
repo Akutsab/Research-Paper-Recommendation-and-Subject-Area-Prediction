@@ -1,5 +1,5 @@
 Subject Prediction Pipeline:-
-
+```
                 ARXIV DATASET
                      │
                      ▼
@@ -32,8 +32,12 @@ Subject Prediction Pipeline:-
                      │
                      ▼
             Subject predictions
+```
 
 Whole Project pipeline:-
+
+
+```
                   RESEARCH PAPER SYSTEM
                             │
               ┌─────────────┴─────────────┐
@@ -56,3 +60,4 @@ word/statistical representation
               │                           │
               ▼                           ▼
        Subject Categories             Top 5 Papers
+```
