@@ -61,3 +61,11 @@ word/statistical representation
               ▼                           ▼
        Subject Categories             Top 5 Papers
 ```
+
+Vectorisation/ encoding process used
+
+| Data                     | Processing                 | Purpose            |
+| ------------------------ | -------------------------- | ------------------ |
+| **Abstract**             | TextVectorization → TF-IDF | **Input features** |
+| **Terms/Subject labels** | StringLookup → Multi-hot   | **Target labels**  |
+| **Title**                | MiniLM → Embedding         | **Recommendation** |
